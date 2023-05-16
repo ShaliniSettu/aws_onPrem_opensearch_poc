@@ -1,0 +1,18 @@
+server:
+  port: 2000
+
+#open-search:
+#  type: "aws"
+#  port: 443
+#  hostName: "search-archondatastore-a7j3az6jpsym3prx7quqao54mi.us-east-2.es.amazonaws.com"
+#  userName: "adsuser"
+#  password: "AdS@3421"
+#  sslEnabled: true
+
+open-search:
+  type: "on-prem"
+  port: 9200
+  hostName: "localhost"
+  userName: "admin"
+  password: "admin"
+  sslEnabled: false
